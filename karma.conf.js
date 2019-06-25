@@ -18,9 +18,9 @@ module.exports = function (config) {
         port: 9878,
         colors: true,
         logLevel: config.LOG_DEBUG,
-        autowatch: true,
+        autowatch: false,
         browsers: ['PhantomJS'],
-        singleRun: false,
+        singleRun: true,
         concurrency: Infinity,
         coverageReporter: {
             includeAllSources: true,
